@@ -4,10 +4,10 @@ A clean and modern personal portfolio website to showcase my projects, skills an
 
 ## 🌐 Live Demo
 
-[Visit Portfolio](https://example.com)
+[Visit Portfolio](https://kdx-08.github.io/Portfolio)
 
 ## 🧰 Tech Stack
 
 - HTML5, CSS3, JavaScript (Vanilla)
 - Git & GitHub for version control
-- [Vercel](https://vercel.com/) for deployment
+- GitHub Pages for deployment
