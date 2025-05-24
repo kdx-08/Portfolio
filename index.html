@@ -1,135 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <nav>
+      <nav>
+        <ul>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="intro">
+        <p id="name">&gt; Kalidoss Anandh</p>
+        <div id="description">
+          <p>
+            Hey there! I am web developer, and my passion is to build simple and
+            beautiful user experiences.
+          </p>
+          <p>Check out my <a href="#projects">projects</a></p>
+        </div>
+      </div>
+
+      <div class="about">
+        <div class="header">
+          <div class="button"></div>
+          <div class="button"></div>
+          <div class="button"></div>
+        </div>
+        <div class="content">
+          <div class="content-item">
+            <p class="input">&#62; me.location</p>
+            <p class="output">"Chennai, TN"</p>
+          </div>
+          <div class="content-item">
+            <p class="input">&#62; me.contact</p>
+            <p class="output">
+              ["<span class="link"
+                ><a
+                  target="_blank"
+                  href="mailto:kalidoss.anandh2023@vitstudent.ac.in"
+                  >email</a
+                ></span
+              >", "<span class="link"
+                ><a target="_blank" href="https://github.com/kdx-08"
+                  >github</a
+                ></span
+              >", "<span class="link"
+                ><a
+                  target="_blank"
+                  href="https://in.linkedin.com/in/kalidoss-anandh"
+                  >linkedin</a
+                ></span
+              >"]
+            </p>
+          </div>
+          <div class="content-item">
+            <p class="input">&#62; me.resume</p>
+            <p class="output">
+              "<span class="link"
+                ><a target="_blank" href="docs/resume.pdf" download
+                  >resume.pdf</a
+                ></span
+              >"
+            </p>
+          </div>
+          <div class="content-item">
+            <p class="input">&#62; me.education</p>
+            <p class="output">
+              "B.Tech Electronics and Computer Engineering - Vellore Institute
+              of Technology, Chennai"
+            </p>
+          </div>
+          <div class="content-item">
+            <p class="input">&#62; me.skills</p>
+            <p class="output">
+              ["HTML", "CSS", "JavaScript", "React", "Python"]
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="projects" class="section-title">
+        <p>P<span>roject</span>s</p>
+      </h2>
+      <div class="projects">
+        <div class="project-item">
+          <p class="title">Ping Pong Score Keeper</p>
+          <p class="project-desc">
+            A simple and interactive Ping Pong scorekeeping web app built with
+            HTML, CSS, and JavaScript. This tool allows two players to keep
+            track of their scores up to a chosen target and provides a visual
+            indicator of the winner.
+          </p>
+          <div class="tech-stack">
             <ul>
-                <li><a href="#projects">projects</a></li>
-                <li><a href="#contact">contact</a></li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
             </ul>
-        </nav>
-
-        <div class="intro">
-            <p id="name">&gt; Kalidoss Anandh</p>
-            <div id="description">
-                <p>Hey there! I am web developer, and my passion is to build simple and beautiful user
-                    experiences.
-                </p>
-                <p>
-                    Check out my <a href="#projects">projects</a>
-                </p>
-            </div>
+          </div>
+          <a
+            target="_blank"
+            href="https://github.com/kdx-08/CounterApp"
+            class="view-source"
+            >View Source</a
+          >
         </div>
-
-        <div class="about">
-            <div class="header">
-                <div class="button"></div>
-                <div class="button"></div>
-                <div class="button"></div>
-            </div>
-            <div class="content">
-                <div class="content-item">
-                    <p class="input">&#62; me.location</p>
-                    <p class="output">"Chennai, TN"</p>
-                </div>
-                <div class="content-item">
-                    <p class="input">&#62; me.contact</p>
-                    <p class="output">["<span class='link'><a target="_blank"
-                                href="mailto:kalidoss.anandh2023@vitstudent.ac.in">email</a></span>", "<span
-                            class='link'><a target="_blank" href="https://github.com/kdx-08">github</a></span>", "<span
-                            class='link'><a target="_blank"
-                                href="https://in.linkedin.com/in/kalidoss-anandh">linkedin</a></span>"]</p>
-                </div>
-                <div class="content-item">
-                    <p class="input">&#62; me.resume</p>
-                    <p class="output">"<span class="link"><a target="_blank" href="docs/resume.pdf"
-                                download>resume.pdf</a></span>"</p>
-                </div>
-                <div class="content-item">
-                    <p class="input">&#62; me.education</p>
-                    <p class="output">"B.Tech Electronics and Computer Engineering - Vellore Institute of Technology,
-                        Chennai"</p>
-                </div>
-                <div class="content-item">
-                    <p class="input">&#62; me.skills</p>
-                    <p class="output">["HTML", "CSS", "JavaScript", "React", "Python"]</p>
-                </div>
-            </div>
+        <div class="project-item">
+          <p class="title">Ping Pong Score Keeper</p>
+          <p class="project-desc">
+            An interactive web app that allows users to search for anime series,
+            movies, and more using the Jikan API. You can enter your favorite
+            anime titles, explore different anime, and see their ratings,
+            images, and more!
+          </p>
+          <div class="tech-stack">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Jikan API</li>
+            </ul>
+          </div>
+          <a
+            target="_blank"
+            href="https://github.com/kdx-08/CounterApp"
+            class="view-source"
+            >View Source</a
+          >
         </div>
-
-        <h2 id="projects" class="section-title">
-            <p>P<span>roject</span>s</p>
-        </h2>
-        <div class="projects">
-            <div class="project-item">
-                <p class="title">Counter</p>
-                <p class="project-desc">A simple counter app built with React. You can increase, decrease, and reset the
-                    counter with a clean interface.</p>
-                <div class="tech-stack">
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                    </ul>
-                </div>
-                <a target="_blank" href="https://github.com/kdx-08/CounterApp" class="view-source">View Source</a>
-            </div>
-            <div class="project-item">
-                <p class="title">To Do List</p>
-                <p class="project-desc">A simple to-do list app built with vanilla JavaScript that saves your tasks in
-                    your browser using LocalStorage. No sign-up or backend—just a clean and minimal way to track your
-                    tasks, and they stay saved even when you close the tab.</p>
-                <div class="tech-stack">
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-                <a target="_blank" href="https://github.com/kdx-08/To-Do-List" class="view-source">View Source</a>
-            </div>
-            <div class="project-item">
-                <p class="title">Portfolio</p>
-                <p class="project-desc">The website you are currently on! This web app was made using plain HTML, CSS
-                    and
-                    JavaScript. I plan to rebuild the same using React soon.</p>
-                <div class="tech-stack">
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                    </ul>
-                </div>
-                <a target="_blank" href="#" class="view-source">View Source</a>
-            </div>
+        <div class="project-item">
+          <p class="title">To Do List</p>
+          <p class="project-desc">
+            A simple to-do list app built with vanilla JavaScript that saves
+            your tasks in your browser using LocalStorage. No sign-up or
+            backend—just a clean and minimal way to track your tasks, and they
+            stay saved even when you close the tab.
+          </p>
+          <div class="tech-stack">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <a
+            target="_blank"
+            href="https://github.com/kdx-08/To-Do-List"
+            class="view-source"
+            >View Source</a
+          >
         </div>
-
-        <h2 id="contact" class="section-title">
-            <p>C<span>ontac</span>t</p>
-        </h2>
-        <div class="contact">
-            <p class="contact-item"><a target="_blank" href="mailto:kalidoss.anandh2023@vitstudent.ac.in">email</a></p>
-            <p class="contact-item"><a target="_blank" href="https://in.linkedin.com/in/kalidoss-anandh">linkedin</a>
-            </p>
-            <p class="contact-item"><a target="_blank" href="https://github.com/kdx-08/">github</a></p>
+        <div class="project-item">
+          <p class="title">Portfolio</p>
+          <p class="project-desc">
+            The website you are currently on! This web app was made using plain
+            HTML, CSS and JavaScript. I plan to rebuild the same using React
+            soon.
+          </p>
+          <div class="tech-stack">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <a target="_blank" href="#" class="view-source">View Source</a>
         </div>
+      </div>
 
-        <footer>
-            <p>
-                Made by Kalidoss Anandh &copy; <span id='year'>year</span>
-            </p>
-        </footer>
+      <h2 id="contact" class="section-title">
+        <p>C<span>ontac</span>t</p>
+      </h2>
+      <div class="contact">
+        <p class="contact-item">
+          <a target="_blank" href="mailto:kalidoss.anandh2023@vitstudent.ac.in"
+            >email</a
+          >
+        </p>
+        <p class="contact-item">
+          <a target="_blank" href="https://in.linkedin.com/in/kalidoss-anandh"
+            >linkedin</a
+          >
+        </p>
+        <p class="contact-item">
+          <a target="_blank" href="https://github.com/kdx-08/">github</a>
+        </p>
+      </div>
+
+      <footer>
+        <p>Made by Kalidoss Anandh &copy; <span id="year">year</span></p>
+      </footer>
     </div>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>

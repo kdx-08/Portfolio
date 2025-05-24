@@ -1,6 +1,6 @@
 # 💼 Personal Portfolio Website
 
-A clean and modern personal portfolio website to showcase my projects, skills and experience.
+A clean and modern personal portfolio website to showcase my projects and skills.
 
 ## 🌐 Live Demo
 
@@ -8,6 +8,6 @@ A clean and modern personal portfolio website to showcase my projects, skills an
 
 ## 🧰 Tech Stack
 
-- HTML5, CSS3, JavaScript (Vanilla)
-- Git & GitHub for version control
-- GitHub Pages for deployment
+- HTML5
+- CSS3
+- JavaScript
