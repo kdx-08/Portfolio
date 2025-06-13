@@ -1,0 +1,11 @@
+.contact {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact a {
+  color: #888888;
+  text-decoration: none;
+}

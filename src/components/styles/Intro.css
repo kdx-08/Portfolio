@@ -1,0 +1,27 @@
+* {
+  color: #333333;
+}
+
+.intro {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.name {
+  color: #747fe0;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 500;
+  border-right: 12px solid #747fe0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description {
+  line-height: 2rem;
+}
+
+.description a {
+  text-decoration: none;
+  color: #747fe0;
+}

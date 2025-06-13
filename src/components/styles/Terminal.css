@@ -1,0 +1,73 @@
+.about {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.about .header {
+  background-color: lightgray;
+  height: 28px;
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+  padding: 4px 8px;
+  display: flex;
+  gap: 8px;
+  justify-content: start;
+  align-items: center;
+}
+
+.about .header .button {
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  margin-left: 4px;
+}
+
+.button:nth-of-type(1) {
+  background-color: #f96256;
+}
+
+.button:nth-of-type(2) {
+  background-color: #fdbc3d;
+}
+
+.button:nth-of-type(3) {
+  background-color: #33c948;
+}
+
+.about .content .content-item:first-child {
+  padding-top: 40px;
+}
+
+.about .content .content-item:last-child {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 32px 32px 40px 32px;
+  margin-bottom: 0px;
+}
+
+.about .content .content-item {
+  padding: 20px 32px;
+}
+
+.about .content .content-item,
+.about .content .content-item .input,
+.about .content .content-item .output,
+.about .content .content-item .output .link a {
+  background-color: #313244;
+}
+
+.about .content .content-item .output .link a {
+  color: rgb(0, 200, 255);
+  text-decoration: none;
+}
+
+.about .content .content-item .input {
+  color: #f7f7f7;
+}
+
+.about .content .content-item .output {
+  color: #e7d184;
+  margin-top: 1rem;
+  line-height: 1.75rem;
+  text-wrap: wrap;
+}

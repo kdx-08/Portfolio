@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.nav-link {
+  font-size: 1.1em;
+  border-bottom: 4px solid transparent;
+  padding-bottom: 10px;
+  transition: border-bottom 0.5s;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  border-bottom: 4px solid #747fe0;
+}

@@ -1,0 +1,40 @@
+.project-item {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 20px rgb(190, 190, 190);
+  margin-bottom: 3rem;
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+}
+
+.project-item .title {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.project-item .project-desc {
+  line-height: 2rem;
+}
+
+.project-item ul {
+  margin-top: 20px;
+  margin-bottom: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-item ul li {
+  color: #747fe0;
+  border: 2px solid #747fe0;
+  border-radius: 4px;
+  padding: 4px 12px;
+}
+
+.project-item a {
+  color: white;
+  background-color: #747fe0;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
