@@ -58,7 +58,7 @@ const Terminal = () => {
         <div className="content-item">
           <p className="input">&#62; me.skills</p>
           <p className="output">
-            ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB", "Python"]
+            ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "MongoDB", "Python"]
           </p>
         </div>
       </div>
