@@ -1,5 +1,11 @@
 [
   {
+    "name": "VIT FFCS Planner",
+    "description": "The FFCS VIT Timetable Planner is a straightforward and user-friendly tool designed to help VIT students organize their course schedules efficiently. It allows users to select their desired courses and instantly see how their weekly timetable shapes up. The planner highlights any timing conflicts, making it easier to adjust and finalize selections. With a clean and intuitive interface, students can manage their courses without hassle and even save or load timetable drafts as needed.",
+    "stack": ["HTML", "CSS", "JavaScript", "React.js"],
+    "source": "https://github.com/kdx-08/vit-ffcs-planner"
+  },
+  {
     "name": "Slate",
     "description": "Slate is a simple, MERN (MongoDB, Express, React, Node.js) application for creating, reading, updating, and deleting notes. It provides a minimal interface for productivity and easy note management. This project features CRUD operations for notes, accessed via a custom-built API.",
     "stack": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "MongoDB"],
@@ -16,17 +22,5 @@
     "description": "The website you are currently on! This is a static website built with React, focused on clean design and simplicity. It uses React components to organize content efficiently and provide a smooth user experience.",
     "stack": ["HTML", "CSS", "JavaScript", "React.js"],
     "source": "https://github.com/kdx-08/Portfolio"
-  },
-  {
-    "name": "Anime Search App",
-    "description": "An interactive web app that allows users to search for anime series, movies, and more using the Jikan API. You can enter your favorite anime titles, explore different anime, and see their ratings, images, and more!",
-    "stack": ["HTML", "CSS", "JavaScript", "Jikan API"],
-    "source": "https://github.com/kdx-08/Anime-Search"
-  },
-  {
-    "name": "Ping Pong Score Keeper",
-    "description": "A simple and interactive Ping Pong scorekeeping web app built with HTML, CSS, and JavaScript. This tool allows two players to keep track of their scores up to a chosen target and provides a visual indicator of the winner.",
-    "stack": ["HTML", "CSS", "JavaScript"],
-    "source": "https://github.com/kdx-08/ScoreKeeper"
   }
 ]
