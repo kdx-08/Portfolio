@@ -9,10 +9,12 @@
 .project-item .title {
   font-size: 1.25rem;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .project-item .project-desc {
   line-height: 2rem;
+  text-align: justify;
 }
 
 .project-item ul {

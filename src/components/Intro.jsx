@@ -17,7 +17,7 @@ const Intro = () => {
       <p className="name">&gt; Kalidoss Anandh</p>
       <p className="description">
         Hey there! I am web developer, and my passion is to build simple and beautiful user
-        experiences. Check out my <a href="#projects">projects</a>
+        experiences. Check out my <a href="#projects">projects</a>.
       </p>
     </div>
   );
