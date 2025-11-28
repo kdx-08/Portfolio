@@ -1,5 +1,5 @@
-import projects from './projects.json';
-import Project from './Project';
+import projects from "./projects.json";
+import Project from "./Project";
 
 const Projects = () => {
   return (

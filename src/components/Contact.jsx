@@ -1,4 +1,4 @@
-import './styles/Contact.css';
+import "./styles/Contact.css";
 
 const Contact = () => {
   return (
@@ -10,12 +10,12 @@ const Contact = () => {
       </h2>
       <div className="contact">
         <p className="contact-item">
-          <a target="_blank" href="mailto:kalidoss.anandh2023@vitstudent.ac.in">
+          <a target="_blank" href="mailto:kavin.anandh@outlook.com">
             email
           </a>
         </p>
         <p className="contact-item">
-          <a target="_blank" href="https://in.linkedin.com/in/kalidoss-anandh">
+          <a target="_blank" href="https://in.linkedin.com/in/kavin-anandh">
             linkedin
           </a>
         </p>
