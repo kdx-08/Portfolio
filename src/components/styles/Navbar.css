@@ -10,7 +10,7 @@ li {
 }
 
 .nav-link {
-  font-size: 1.1em;
+  font-size: 1.2rem;
   border-bottom: 4px solid transparent;
   padding-bottom: 10px;
   transition: border-bottom 0.5s;

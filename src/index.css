@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Victor Mono';
-  src: url('./assets/fonts/VictorMono-VariableFont_wght.ttf') format('truetype');
+  font-family: "IBM Plex Mono";
+  src: url("./assets/fonts/IBMPlexMono-Regular.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -10,10 +10,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Victor Mono', sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   color: #333333;
 }
 
 body {
+  font-size: 1.1rem;
   background-color: rgb(240, 240, 240);
 }

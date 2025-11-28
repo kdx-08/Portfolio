@@ -1,4 +1,4 @@
-import './styles/Terminal.css';
+import "./styles/Terminal.css";
 
 const Terminal = () => {
   return (
@@ -18,7 +18,7 @@ const Terminal = () => {
           <p className="output">
             ["
             <span className="link">
-              <a target="_blank" href="mailto:kalidoss.anandh2023@vitstudent.ac.in">
+              <a target="_blank" href="mailto:kavin.anandh@outlook.com">
                 email
               </a>
             </span>
@@ -30,7 +30,7 @@ const Terminal = () => {
             </span>
             ", "
             <span className="link">
-              <a target="_blank" href="https://in.linkedin.com/in/kalidoss-anandh">
+              <a target="_blank" href="https://in.linkedin.com/in/kavin-anandh">
                 linkedin
               </a>
             </span>
@@ -58,7 +58,7 @@ const Terminal = () => {
         <div className="content-item">
           <p className="input">&#62; me.skills</p>
           <p className="output">
-            ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "MongoDB", "Python"]
+            ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "Python"]
           </p>
         </div>
       </div>

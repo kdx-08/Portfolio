@@ -1,5 +1,11 @@
 [
   {
+    "name": "Theatrix",
+    "description": "A simple theatre management system application built with Express.js and Supabase, designed for managing movies and shows. Data is stored securely in the cloud using Supabase. This project features CRUD operations (Create, Read, Update, Delete) for movies and shows, accessed via a custom API.",
+    "stack": ["EJS", "CSS", "JavaScript", "Node.js", "Express.js", "Supabase"],
+    "source": "https://github.com/kdx-08/Theatrix"
+  },
+  {
     "name": "VIT FFCS Planner",
     "description": "The FFCS VIT Timetable Planner is a straightforward and user-friendly tool designed to help VIT students organize their course schedules efficiently. It allows users to select their desired courses and instantly see how their weekly timetable shapes up. The planner highlights any timing conflicts, making it easier to adjust and finalize selections. With a clean and intuitive interface, students can manage their courses without hassle and even save or load timetable drafts as needed.",
     "stack": ["HTML", "CSS", "JavaScript", "React.js"],
@@ -10,12 +16,6 @@
     "description": "Slate is a simple, MERN (MongoDB, Express, React, Node.js) application for creating, reading, updating, and deleting notes. It provides a minimal interface for productivity and easy note management. This project features CRUD operations for notes, accessed via a custom-built API.",
     "stack": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Express.js", "MongoDB"],
     "source": "https://github.com/kdx-08/Slate"
-  },
-  {
-    "name": "TradeBox",
-    "description": "A simple backend application built with Express.js and MongoDB, designed for managing items. Data is stored securely in the cloud using MongoDB Atlas. This project features CRUD operations (Create, Read, Update, Delete) for items, accessed via a custom API.",
-    "stack": ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "MongoDB"],
-    "source": "https://github.com/kdx-08/TradeBox"
   },
   {
     "name": "Portfolio",
